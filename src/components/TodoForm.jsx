@@ -30,6 +30,7 @@ export const TodoForm = () => {
   return (
     <>
       <form className="todo-form" onSubmit={handleSubmit}>
+        <p>enter field</p>
         <input
           className="title-input"
           placeholder="enter your todo..."
